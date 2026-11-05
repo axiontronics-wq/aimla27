@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About AIMLA 2027 - International Conference on AI &amp; ML Applications</title>
+    <meta name="description" content="AIMLA 2027: 5th International Conference on Artificial Intelligence and Machine Learning Applications, 15–16 April 2027, K.S.Rangasamy College of Technology, Tiruchengode.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site-header.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/site-footer.css">
+</head>
+<body>
+
+    <!-- ===== TOP UTILITY BAR ===== -->
+    <div class="top-bar">
+        <div class="top-bar-left">Announcements</div>
+
+        <div class="marquee-wrap" aria-label="Announcements">
+            <div class="marquee-track">
+                <span>Paper submission opens 01 Dec 2026</span>
+                <span>Submission deadline: 15 Mar 2027</span>
+                <span>Conference on 15–16 April 2027</span>
+                <span>Hybrid mode is only for foreign authors · Indian authors must present offline</span>
+                <span>Submit only via Microsoft CMT portal</span>
+                <!-- duplicate for seamless loop -->
+                <span aria-hidden="true">Paper submission opens 01 Dec 2026</span>
+                <span aria-hidden="true">Submission deadline: 15 Mar 2027</span>
+                <span aria-hidden="true">Conference on 15–16 April 2027</span>
+                <span aria-hidden="true">Hybrid mode is only for foreign authors · Indian authors must present offline</span>
+                <span aria-hidden="true">Submit only via Microsoft CMT portal</span>
+            </div>
+        </div>
+
+        <div class="top-bar-links">
+            <a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener">IEEE Xplore</a>
+            <a href="registration.html#registration">Register</a>
+        </div>
+    </div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-mark">AI</span>
+                AIMLA 2027            </a>
+
+            <button class="mobile-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a href="about.html">About <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="about.html#about">About Conference</a></li>
+                        <li><a href="about.html#committee">Committee</a></li>
+                        <li><a href="callforpapers.html#keynote-speakers">Keynote Speakers</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="callforpapers.html">Call for Papers <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="callforpapers.html#topics">Topics</a></li>
+                        <li><a href="callforpapers.html#submission">Submission</a></li>
+                        <li><a href="callforpapers.html#guidelines">Guidelines</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="program.html">Program <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="program.html#dates">Important Dates</a></li>
+                        <li><a href="program.html#schedule">Schedule / Technical Sessions</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="registration.html">Registration <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="registration.html#fees">Fees</a></li>
+                        <li><a href="registration.html#registration">Register Now</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="venue-travel.html">Venue &amp; Travel</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="proceedings.html">Proceedings</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1600&amp;q=80');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-inner">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Conference on 15–16 April 2027                </div>
+                <h1>Artificial Intelligence and Machine Learning Applications</h1>
+                <p class="subtitle">5th International Conference</p>
+                <p class="theme">Theme: Innovation and Technology</p>
+                <div class="hero-buttons">
+                    <a href="registration.html#registration" class="btn btn-primary">Register Now →</a>
+                    <a href="#about" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="alt-bg">
+        <div class="container">
+            <div class="section-label">About</div>
+            <h2 class="section-title">About the Conference</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <p>
+                        <strong>AIMLA 2027</strong> brings together academicians, researchers and data analysts to promote the adoption of Artificial Intelligence and Machine Learning. As organizations worldwide go through digital transformation, AI/ML applications connect analytics, data science and automation to speed that journey up.
+                    </p>
+                    <p>
+                        The conference is a platform where researchers and innovators from different disciplines present their work, share knowledge and exchange ideas. It is jointly organized by the Departments of <strong>Electronics and Communication Engineering</strong>, <strong>Electrical and Electronics Engineering</strong>, <strong>Computer Science Engineering</strong> and <strong>Information Technology</strong> of KSRCT.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PUBLICATION POLICY -->
+    <section id="policy">
+        <div class="container">
+            <div class="section-label">Policy</div>
+            <h2 class="section-title">Publication Policy</h2>
+            <div class="policy-card">
+                <p>
+                    All accepted and presented papers that comply with IEEE guidelines will be published in <strong>IEEE Xplore</strong>. AIMLA 2027 submits all presented papers to IEEE. IEEE may decline any paper that does not meet its standards, and AIMLA 2027 is not responsible for papers IEEE does not publish.
+                </p>
+</div>
+        </div>
+    </section>
+
+    <!-- COMMITTEE HEADER (replaces the old Committee Hero) -->
+    <section id="committee" class="alt-bg">
+        <div class="container">
+            <div class="section-label">Organizing Team</div>
+            <h2 class="section-title">Committee</h2>
+            <p class="section-desc" style="color: var(--text-muted); font-size: 1rem; max-width: 720px; margin-bottom: 0;">
+                Meet the patrons, chairs, and committees shaping AIMLA 2027, organized by K.S.Rangasamy College of Technology.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== ORGANIZERS ===== -->
+    <section class="organizers" id="organizers" style="padding: 2.5rem 2rem 1.5rem;">
+        <div class="org-grid org-single">
+            <div class="org-card">
+                <div class="org-logo">
+                    <img src="https://static.wixstatic.com/media/8faa5b_3dc1d5462a7143ef912d4c96c3cba449~mv2.png/v1/fill/w_165,h_153,al_c,q_85/8faa5b_3dc1d5462a7143ef912d4c96c3cba449~mv2.png" alt="KSRCT Logo" loading="lazy">
+                </div>
+                <h3>School of Electrical Sciences and Computer Sciences</h3>
+                <h4>K.S.Rangasamy College of Technology</h4>
+                <p>(Autonomous) · Tiruchengode – 637 215, Namakkal Dt., Tamil Nadu, India</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== COMMITTEE LAYOUT: ALL COLLAPSIBLE SECTIONS ===== -->
+    <div class="committee-layout">
+
+        <!-- 1. CHIEF PATRONS & PATRON -->
+        <div class="committee-section" id="chief-patrons">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">👑</span>
+                    <div>
+                        <div class="section-title">Chief Patrons &amp; Patron</div>
+                        <div class="section-subtitle">Leadership · 3 members</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item">
+                            <span class="member-name">Mr. R. Srinivasan</span>
+                            <span class="member-detail">Chairman, KSREI</span>
+                        </div>
+                        <div class="member-item">
+                            <span class="member-name">Mr. K. S. Sachin</span>
+                            <span class="member-detail">Vice Chairman, KSREI</span>
+                        </div>
+                        <div class="member-item">
+                            <span class="member-name">Dr. R. Gopalakrishnan</span>
+                            <span class="member-detail">Principal, KSRCT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. CHAIRS -->
+        <div class="committee-section" id="chairs">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">🪑</span>
+                    <div>
+                        <div class="section-title">Chairs</div>
+                        <div class="section-subtitle">Conference leadership · 1 member</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item">
+                            <span class="member-name">Dr. K. B. Jayanthi</span>
+                            <span class="member-detail">Professor / ECE and Controller of Examination (CoE), KSRCT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. PROGRAM, REGISTRATION & PR CHAIRS -->
+        <div class="committee-section" id="program-chairs">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">📋</span>
+                    <div>
+                        <div class="section-title">Program, Registration &amp; PR Chairs</div>
+                        <div class="section-subtitle">Coordinators · 4 members</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item">
+                            <span class="member-name">Dr. B. G. Geetha</span>
+                            <span class="member-detail">Program Chair</span>
+                        </div>
+                        <div class="member-item">
+                            <span class="member-name">Dr. P. Kumar</span>
+                            <span class="member-detail">Program Chair</span>
+                        </div>
+                        <div class="member-item">
+                            <span class="member-name">Dr. C. Rajan</span>
+                            <span class="member-detail">Conference Registration Chair</span>
+                        </div>
+                        <div class="member-item">
+                            <span class="member-name">Dr. R. Poonkuzhali</span>
+                            <span class="member-detail">Public Relationship Chair</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. ORGANIZING SECRETARY -->
+        <div class="committee-section" id="org-secretary">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">📝</span>
+                    <div>
+                        <div class="section-title">Organizing Secretary</div>
+                        <div class="section-subtitle">Day-to-day organization · 1 member</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item">
+                            <span class="member-name">Dr. C. Rajasekaran</span>
+                            <span class="member-detail">Director, Industry Institute Interaction, KSRCT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. TECHNICAL PROGRAM COMMITTEE -->
+        <div class="committee-section" id="tech-program">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">⚙️</span>
+                    <div>
+                        <div class="section-title">Technical Program Committee</div>
+                        <div class="section-subtitle">Technical scope · 2 members</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item">
+                            <span class="member-name">Dr. K. Sakthivel</span>
+                            <span class="member-detail">Technical Program Committee</span>
+                        </div>
+                        <div class="member-item">
+                            <span class="member-name">Dr. S. Sarumathi</span>
+                            <span class="member-detail">Technical Program Committee</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. ORGANIZING COMMITTEE (KSRCT) -->
+        <div class="committee-section" id="org-committee">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">🏛️</span>
+                    <div>
+                        <div class="section-title">Organizing Committee (KSRCT)</div>
+                        <div class="section-subtitle">Logistics &amp; operations · 8 members</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item"><span class="member-name">Dr. P. Babu</span><span class="member-detail">Organizing Committee, KSRCT</span></div>
+                        <div class="member-item"><span class="member-name">Dr. J. Nithya</span><span class="member-detail">Organizing Committee, KSRCT</span></div>
+                        <div class="member-item"><span class="member-name">Dr. M. Tamilarasi</span><span class="member-detail">Organizing Committee, KSRCT</span></div>
+                        <div class="member-item"><span class="member-name">Dr. R. Balamurugan</span><span class="member-detail">Organizing Committee, KSRCT</span></div>
+                        <div class="member-item"><span class="member-name">Dr. K. Poongodi</span><span class="member-detail">Organizing Committee, KSRCT</span></div>
+                        <div class="member-item"><span class="member-name">Mr. S. Jayamani</span><span class="member-detail">Organizing Committee, KSRCT</span></div>
+                        <div class="member-item"><span class="member-name">Mr. J. Karthick</span><span class="member-detail">Organizing Committee, KSRCT</span></div>
+                        <div class="member-item"><span class="member-name">Mr. D. Balakrishnan</span><span class="member-detail">Organizing Committee, KSRCT</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7. PUBLICATION CHAIR -->
+        <div class="committee-section" id="publication-chair">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">📚</span>
+                    <div>
+                        <div class="section-title">Publication Chair</div>
+                        <div class="section-subtitle">Publication quality · 1 member</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item">
+                            <span class="member-name">Dr. G. Vijaya Gowri</span>
+                            <span class="member-detail">Publication Chair</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 8. INTERNATIONAL ADVISORY COMMITTEE -->
+        <div class="committee-section" id="intl-advisory">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">🌍</span>
+                    <div>
+                        <div class="section-title">International Advisory Committee</div>
+                        <div class="section-subtitle">Global advisors · 12 members</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item"><span class="member-name">Prof. Nigel Lovell</span><span class="member-detail">University of New South Wales, Australia</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Ajay Anand</span><span class="member-detail">University of Rochester, USA</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Ganesh Naik</span><span class="member-detail">Flinders University, Australia</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Xin-She Yang</span><span class="member-detail">Middlesex University London, UK</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Lipo Wang</span><span class="member-detail">Nanyang Technological University, Singapore</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Abu Zaharin Ahmad</span><span class="member-detail">University Malaysia Pahang, Malaysia</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Massimo Ficco</span><span class="member-detail">University of Campania Luigi Vanvitelli, Italy</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Yui Wing Leung</span><span class="member-detail">Hong Kong Baptist University, Hong Kong</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Lai Khin Wee</span><span class="member-detail">University of Malaya, Kuala Lumpur, Malaysia</span></div>
+                        <div class="member-item"><span class="member-name">Prof. M. S. Al Salameh</span><span class="member-detail">University of Science &amp; Technology Irbid, Jordan</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Ishak bin Abdul Razak</span><span class="member-detail">MAHSA University, Malaysia</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Ramani Kannan</span><span class="member-detail">Universiti Teknologi PETRONAS, Malaysia</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 9. NATIONAL ADVISORY COMMITTEE -->
+        <div class="committee-section" id="natl-advisory">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">🇮🇳</span>
+                    <div>
+                        <div class="section-title">National Advisory Committee</div>
+                        <div class="section-subtitle">Indian advisors · 14 members</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item"><span class="member-name">Dr. P. Sakthivel</span><span class="member-detail">Chairman, IEEE Madras Section, Chennai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. S. Radha</span><span class="member-detail">Secretary, IEEE Madras Section</span></div>
+                        <div class="member-item"><span class="member-name">Dr. S. Brindha</span><span class="member-detail">Treasurer, IEEE Madras Section</span></div>
+                        <div class="member-item"><span class="member-name">Dr. S. Koteeswaran</span><span class="member-detail">Chair, Computer Society – IEEE Madras Section</span></div>
+                        <div class="member-item"><span class="member-name">Dr. V. Nagarajan</span><span class="member-detail">IEEE Conference Vice Chair – IEEE Madras Section</span></div>
+                        <div class="member-item"><span class="member-name">Mr. Shrikrishna Chippalkatti</span><span class="member-detail">Scientist 'E', C-DAC Bangalore</span></div>
+                        <div class="member-item"><span class="member-name">Dr. A. K. Bhattacharjee</span><span class="member-detail">National Institute of Technology, Durgapur</span></div>
+                        <div class="member-item"><span class="member-name">Dr. A. K. Mal</span><span class="member-detail">National Institute of Technology, Durgapur</span></div>
+                        <div class="member-item"><span class="member-name">Dr. B. Surendiran</span><span class="member-detail">National Institute of Technology, Puducherry</span></div>
+                        <div class="member-item"><span class="member-name">Dr. T. Veerakumar</span><span class="member-detail">National Institute of Technology, Goa</span></div>
+                        <div class="member-item"><span class="member-name">Dr. S. Jeevananthan</span><span class="member-detail">Puducherry Technological University</span></div>
+                        <div class="member-item"><span class="member-name">Dr. H. S. Behera</span><span class="member-detail">VSS University of Technology, Odisha</span></div>
+                        <div class="member-item"><span class="member-name">Mr. Balakumar Chinnusamy</span><span class="member-detail">VVDN Technologies, Coimbatore</span></div>
+                        <div class="member-item"><span class="member-name">Mr. V. Chandran</span><span class="member-detail">Tiger Analytics, Chennai</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 10. TECHNICAL COMMITTEE -->
+        <div class="committee-section" id="tech-committee">
+            <button class="section-header" onclick="toggleSection(this)">
+                <div class="section-header-left">
+                    <span class="section-icon-badge">🔬</span>
+                    <div>
+                        <div class="section-title">Technical Committee</div>
+                        <div class="section-subtitle">Subject-matter experts · 46 members</div>
+                    </div>
+                </div>
+                <span class="section-toggle-icon">+</span>
+            </button>
+            <div class="section-body">
+                <div class="section-body-inner">
+                    <div class="member-list">
+                        <div class="member-item"><span class="member-name">Prof. Wong Wai Kit</span><span class="member-detail">Multimedia University, Malaysia</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Ching-Wen Ma</span><span class="member-detail">National Yang Ming Chiao Tung University, Taiwan</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Xiao-Zhi Gao</span><span class="member-detail">University of Eastern Finland, Finland</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Habtamu Mohammed</span><span class="member-detail">Wollo University, Ethiopia</span></div>
+                        <div class="member-item"><span class="member-name">Prof. Hossein Moeinzadeh</span><span class="member-detail">The University of Sydney, Australia</span></div>
+                        <div class="member-item"><span class="member-name">Dr. P. Karuppanan</span><span class="member-detail">Associate Professor / ECE, MNNIT Allahabad</span></div>
+                        <div class="member-item"><span class="member-name">Dr. M. N. Suresh</span><span class="member-detail">Associate Professor / ECE, Thiagarajar College of Engineering, Madurai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. V. D. Ambeth Kumar</span><span class="member-detail">Associate Professor and Head / CSE, Mizoram University</span></div>
+                        <div class="member-item"><span class="member-name">Dr. M. Arun</span><span class="member-detail">Professor / Embedded Technology, VIT University, Vellore</span></div>
+                        <div class="member-item"><span class="member-name">Dr. R. Dhanalakshmi</span><span class="member-detail">Associate Professor &amp; Head, IIIT Tiruchirappalli</span></div>
+                        <div class="member-item"><span class="member-name">Dr. L. Ashok Kumar</span><span class="member-detail">Professor / EEE, PSG College of Technology, Coimbatore</span></div>
+                        <div class="member-item"><span class="member-name">Dr. P. Suresh Varma</span><span class="member-detail">Professor / CSE, Adikavi Nannaya University, Andhra Pradesh</span></div>
+                        <div class="member-item"><span class="member-name">Dr. J. Kalaiselvi</span><span class="member-detail">Assistant Professor / EEE, IIT Ropar</span></div>
+                        <div class="member-item"><span class="member-name">Dr. E. Sasikala</span><span class="member-detail">Professor / CSE, SRM University, Chennai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. Rajib Kar</span><span class="member-detail">Assistant Professor / ECE, NIT Durgapur</span></div>
+                        <div class="member-item"><span class="member-name">Dr. Arnab Nandi</span><span class="member-detail">Assistant Professor / ECE, NIT Silchar, Assam</span></div>
+                        <div class="member-item"><span class="member-name">Dr. R. Murugan</span><span class="member-detail">Assistant Professor / ECE, NIT Silchar, Assam</span></div>
+                        <div class="member-item"><span class="member-name">Dr. P. Anandha Kumar</span><span class="member-detail">Professor / IT, Madras Institute of Technology, Chennai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. Durbadal Mandal</span><span class="member-detail">Assistant Professor / ECE, NIT Durgapur</span></div>
+                        <div class="member-item"><span class="member-name">Dr. T. Laxmikandan</span><span class="member-detail">Associate Professor / ECE, Anna University (CEG), Chennai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. C. Gunavathi</span><span class="member-detail">Associate Professor, VIT Vellore</span></div>
+                        <div class="member-item"><span class="member-name">Dr. M. Nirmala</span><span class="member-detail">Associate Professor / ECE, Sri Sakthi Institute, Coimbatore</span></div>
+                        <div class="member-item"><span class="member-name">Dr. Vikas Maheswari</span><span class="member-detail">Professor / ECE, Gurunanak Institutions, Hyderabad</span></div>
+                        <div class="member-item"><span class="member-name">Dr. C. Puttamadappa</span><span class="member-detail">Professor and Registrar, Dayananda Sagar University, Bengaluru</span></div>
+                        <div class="member-item"><span class="member-name">Dr. V. Sumathy</span><span class="member-detail">Principal, Government College of Engineering, Dharmapuri</span></div>
+                        <div class="member-item"><span class="member-name">Dr. C. Vasanthanayaki</span><span class="member-detail">Principal, Government College of Engineering, Salem</span></div>
+                        <div class="member-item"><span class="member-name">Dr. K. Udayakumar</span><span class="member-detail">Professor / EEE, Anna University, Chennai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. P. Somasundaram</span><span class="member-detail">Professor / EEE, CEG, Anna University, Chennai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. P. Palanisamy</span><span class="member-detail">Professor / ECE, NIT Tiruchirappalli</span></div>
+                        <div class="member-item"><span class="member-name">Dr. G. Saravanailango</span><span class="member-detail">Professor / EEE, NIT Tiruchirappalli</span></div>
+                        <div class="member-item"><span class="member-name">Dr. N. Rajasekar</span><span class="member-detail">Professor / EEE, VIT University, Vellore</span></div>
+                        <div class="member-item"><span class="member-name">Dr. S. Jothilakshmi</span><span class="member-detail">Associate Professor / ECE, Annamalai University</span></div>
+                        <div class="member-item"><span class="member-name">Dr. M. Madheswaran</span><span class="member-detail">Principal / Past Chairman IEEE, Muthayammal Engineering College</span></div>
+                        <div class="member-item"><span class="member-name">Dr. B. Banurekha</span><span class="member-detail">Associate Professor / BME, PSG College of Technology</span></div>
+                        <div class="member-item"><span class="member-name">Dr. N. Nithyavathy</span><span class="member-detail">Associate Professor / Mechatronics, Kongu Engineering College</span></div>
+                        <div class="member-item"><span class="member-name">Dr. M. Balasubramanian</span><span class="member-detail">Professor &amp; Head, Excel Engineering College, Perundurai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. S. Maheswaran</span><span class="member-detail">Associate Professor / ECE, Kongu Engineering College</span></div>
+                        <div class="member-item"><span class="member-name">Dr. N. Santhiyakumari</span><span class="member-detail">Professor &amp; Head / ECE, Knowledge Institute of Technology, Salem</span></div>
+                        <div class="member-item"><span class="member-name">Mrs. S. Deivanayagi</span><span class="member-detail">Associate Professor / ECE, Sri Sairam Institute of Technology</span></div>
+                        <div class="member-item"><span class="member-name">Dr. S. Md. Mansoor Roomi</span><span class="member-detail">Professor / ECE, Thiagarajar College of Engineering, Madurai</span></div>
+                        <div class="member-item"><span class="member-name">Dr. P. G. S. Velmurugan</span><span class="member-detail">Associate Professor / ECE, Thiagarajar College of Engineering</span></div>
+                        <div class="member-item"><span class="member-name">Dr. K. R. Valluvan</span><span class="member-detail">Prof &amp; COE, Velalar College of Engineering and Technology</span></div>
+                        <div class="member-item"><span class="member-name">Dr. S. Mangai</span><span class="member-detail">Prof. &amp; Head / BME, Velalar College of Engineering and Technology</span></div>
+                        <div class="member-item"><span class="member-name">Dr. P. Sakthivel</span><span class="member-detail">Prof. &amp; Head / EEE, Velalar College of Engineering and Technology</span></div>
+                        <div class="member-item"><span class="member-name">Mr. K. Rajaram</span><span class="member-detail">AP / BME, Velalar College of Engineering and Technology</span></div>
+                        <div class="member-item"><span class="member-name">Mrs. S. Maheswari</span><span class="member-detail">AP / BME, Velalar College of Engineering and Technology</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/script/about.js"></script>
+    <!-- ===== CONTACT ===== -->
+    <main class="main-content" id="contact">
+        <div class="container">
+            <div class="section-label">Get in Touch</div>
+            <h1 class="section-title">Contact</h1>
+            <p class="section-desc">
+                Do not email your article. Papers are accepted only through the Microsoft CMT portal. Peer review is managed with Microsoft CMT, provided free by Microsoft.
+            </p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:aimla@ksrct.ac.in">aimla@ksrct.ac.in</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h4>Phone</h4>
+                    <p>+91-94428 06307</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕐</div>
+                    <h4>Office Hours</h4>
+                    <p>
+                        09:30 AM – 04:00 PM IST                        <span class="subline">Monday to Friday</span>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-note">
+                <span class="note-icon">⚠️</span>
+                <p><strong>Don't send your article by email.</strong> Submissions are accepted only through the Microsoft CMT portal.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand-block footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-mark">AI</span>
+                        <span class="brand-name">AIMLA 2027</span>
+                    </div>
+                    <p class="brand-desc">
+                        5th International Conference on Artificial Intelligence and Machine Learning Applications, 15–16 April 2027. Organized by the Departments of ECE, EEE, CSE and IT, K.S.Rangasamy College of Technology.                    </p>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="callforpapers.html#submission">Submission</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="venue-travel.html">Venue &amp; Travel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Explore</h5>
+                    <ul>
+                        <li><a href="callforpapers.html#keynote-speakers">Keynotes</a></li>
+                        <li><a href="about.html#committee">Committee</a></li>
+                        <li><a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener">IEEE Xplore</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copy">
+                    <strong>© 2027 AIMLA Conference.</strong> All rights reserved.<br>
+                    Organized by the Departments of ECE, EEE, CSE and IT, K.S.Rangasamy College of Technology.                </div>
+                <div class="footer-address">
+                    <strong>Department of ECE, K.S.Rangasamy College of Technology</strong><br>
+                    KSR Kalvi Nagar, Tiruchengode – 637215,<br>
+                    Namakkal (dt.), Tamil Nadu, India
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script/site.js"></script>
+</body>
+</html>

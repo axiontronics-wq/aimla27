@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIMLA 2027 - Topics, Guidelines &amp; Keynote Speakers</title>
+    <meta name="description" content="AIMLA 2027: 5th International Conference on Artificial Intelligence and Machine Learning Applications, 15–16 April 2027, K.S.Rangasamy College of Technology, Tiruchengode.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site-header.css">
+    <link rel="stylesheet" href="assets/css/callpaper.css">
+    <link rel="stylesheet" href="assets/css/site-footer.css">
+</head>
+<body>
+
+    <!-- ===== TOP UTILITY BAR ===== -->
+    <div class="top-bar">
+        <div class="top-bar-left">Announcements</div>
+
+        <div class="marquee-wrap" aria-label="Announcements">
+            <div class="marquee-track">
+                <span>Paper submission opens 01 Dec 2026</span>
+                <span>Submission deadline: 15 Mar 2027</span>
+                <span>Conference on 15–16 April 2027</span>
+                <span>Hybrid mode is only for foreign authors · Indian authors must present offline</span>
+                <span>Submit only via Microsoft CMT portal</span>
+                <!-- duplicate for seamless loop -->
+                <span aria-hidden="true">Paper submission opens 01 Dec 2026</span>
+                <span aria-hidden="true">Submission deadline: 15 Mar 2027</span>
+                <span aria-hidden="true">Conference on 15–16 April 2027</span>
+                <span aria-hidden="true">Hybrid mode is only for foreign authors · Indian authors must present offline</span>
+                <span aria-hidden="true">Submit only via Microsoft CMT portal</span>
+            </div>
+        </div>
+
+        <div class="top-bar-links">
+            <a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener">IEEE Xplore</a>
+            <a href="registration.html#registration">Register</a>
+        </div>
+    </div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-mark">AI</span>
+                AIMLA 2027            </a>
+
+            <button class="mobile-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html">About <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="about.html#about">About Conference</a></li>
+                        <li><a href="about.html#committee">Committee</a></li>
+                        <li><a href="callforpapers.html#keynote-speakers">Keynote Speakers</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item active">
+                    <a href="callforpapers.html">Call for Papers <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="callforpapers.html#topics">Topics</a></li>
+                        <li><a href="callforpapers.html#submission">Submission</a></li>
+                        <li><a href="callforpapers.html#guidelines">Guidelines</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="program.html">Program <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="program.html#dates">Important Dates</a></li>
+                        <li><a href="program.html#schedule">Schedule / Technical Sessions</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="registration.html">Registration <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="registration.html#fees">Fees</a></li>
+                        <li><a href="registration.html#registration">Register Now</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="venue-travel.html">Venue &amp; Travel</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="proceedings.html">Proceedings</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1600&amp;q=80');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-inner">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Conference on 15–16 April 2027                </div>
+                <h1>Artificial Intelligence and Machine Learning Applications</h1>
+                <p class="subtitle">5th International Conference</p>
+                <p class="theme">Theme: Innovation and Technology</p>
+                <div class="hero-buttons">
+                    <a href="#topics" class="btn btn-primary">View Topics →</a>
+                    <a href="#keynote-speakers" class="btn btn-outline">Keynote Speakers</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mode-notice-wrap" id="presentation-mode">
+        <aside class="mode-notice" role="note" aria-label="Mode of presentation">
+    <div class="mode-notice-icon" aria-hidden="true">!</div>
+    <div class="mode-notice-body">
+        <h3>Mode of presentation: read this before you submit</h3>
+        <ul>
+            <li><strong>Hybrid (online) mode is only for foreign authors.</strong></li>
+            <li><strong>Indian authors must present offline</strong> (in person) at K.S.Rangasamy College of Technology, Tiruchengode.</li>
+            <li>For Indian authors, <strong>at least one author of every paper must present offline.</strong></li>
+        </ul>
+    </div>
+</aside>
+    </section>
+
+    <!-- ===== TOPICS ===== -->
+    <section id="topics">
+        <div class="container">
+            <div class="section-label">Topics</div>
+            <h2 class="section-title">Conference Focus Areas</h2>
+            <p class="section-desc">Topics include, but are not limited to, the following. Use the search box to filter.</p>
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="topicSearch" placeholder="Search topics, e.g. vision" oninput="filterTopics()">
+            </div>
+            <div class="topics-grid" id="topicsGrid">
+                <span class="topic-tag">Adaptive Modelling</span>
+                <span class="topic-tag">Neuroscience</span>
+                <span class="topic-tag">AI in Agriculture</span>
+                <span class="topic-tag">AI for Assisted Living</span>
+                <span class="topic-tag">AI in Biomedical Applications</span>
+                <span class="topic-tag">Augmented / Virtual Reality</span>
+                <span class="topic-tag">Automated Machine Learning</span>
+                <span class="topic-tag">Bayesian Learning</span>
+                <span class="topic-tag">Biometrics</span>
+                <span class="topic-tag">Blockchain / Cybersecurity</span>
+                <span class="topic-tag">Clustering</span>
+                <span class="topic-tag">Computational Linguistics</span>
+                <span class="topic-tag">Computer Vision</span>
+                <span class="topic-tag">Convolutional Neural Networks</span>
+                <span class="topic-tag">Data Mining</span>
+                <span class="topic-tag">Deep Learning</span>
+                <span class="topic-tag">Drones</span>
+                <span class="topic-tag">Expert Systems</span>
+                <span class="topic-tag">Explainable Machine Learning</span>
+                <span class="topic-tag">Health Care</span>
+                <span class="topic-tag">Information Retrieval</span>
+                <span class="topic-tag">Internet of Things</span>
+                <span class="topic-tag">Knowledge Based Systems</span>
+                <span class="topic-tag">Machine Learning</span>
+                <span class="topic-tag">ML for Incomplete Data</span>
+                <span class="topic-tag">Natural Language Processing</span>
+                <span class="topic-tag">Probabilistic Graphical Models</span>
+                <span class="topic-tag">Reinforcement Learning</span>
+                <span class="topic-tag">Robotics</span>
+                <span class="topic-tag">Sentiment Analysis</span>
+                <span class="topic-tag">Social Network Analysis</span>
+                <span class="topic-tag">Software and Hardware Architecture</span>
+                <span class="topic-tag">Trustworthy Machine Learning</span>
+                <span class="topic-tag">Web Intelligence and Search</span>
+            </div>
+            <p class="no-results" id="noResults">No topics match your search.</p>
+        </div>
+    </section>
+
+    <!-- ===== GUIDELINES TO AUTHOR ===== -->
+    <section id="guidelines" class="alt-bg">
+        <div class="container">
+            <div class="section-label">Authors</div>
+            <h2 class="section-title">Guidelines to Author</h2>
+
+            <div class="submission-alert upcoming" id="submission">
+                <p class="closed">*** Submission opens on 01 Dec 2026 ***</p>
+                <p>*** Read the guidelines fully before submitting your paper. ***</p>
+                <p style="margin-top: 0.75rem; color: var(--text-dark); font-weight: 600;">Paper submission link is available at the end of this page.</p>
+                <p class="contact-line">Contact: <a href="mailto:aimla@ksrct.ac.in">aimla@ksrct.ac.in</a></p>
+                <p class="warn">(Do not send your article by email. It will not be considered.)</p>
+            </div>
+
+            <div class="compliance-box">
+                <h3>All Papers submitted to the conference must:</h3>
+                <ol>
+                    <li>
+                        Be compliant with the IEEE Publications Service and Products Board Operations Manual and all policies therein —
+                        <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/fundamental-publishing-guidelines-and-principles/" target="_blank" rel="noopener" class="link-blue">Fundamental Publishing Guidelines and Principles</a>
+                    </li>
+                    <li>
+                        Be compliant with the IEEE Code of Ethics —
+                        <a href="https://www.ieee.org/about/corporate/governance/p7-8.html" target="_blank" rel="noopener" class="link-blue">IEEE Code of Ethics</a>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="accordion" id="guidelinesAccordion">
+
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="acc-left"><span class="acc-num">1</span>Formatting</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">
+                            <ul>
+                                <li>All papers must be written in English</li>
+                                <li>All papers must be original unpublished work</li>
+                                <li>Each paper may be written by up to 35 authors maximum.</li>
+                                <li>Each author listed on the paper must be listed in the paper management system</li>
+                                <li>One author must be designated as the corresponding author for the paper.</li>
+                                <li>Our current paper management system will accept papers in Microsoft Word and LaTeX.</li>
+                                <li>We highly recommend the usage of the provided templates to generate your paper.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="acc-left"><span class="acc-num">2</span>Templates for Conference Paper</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">
+                            <p>
+                                ➜ <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener" class="link-blue" style="font-size:1rem;">Click here for IEEE conference paper template (6-page limit)</a>
+                            </p>
+                            <p class="warn-text">
+                                Each submission will be reviewed for compliance with paper size, margins, headers, footers, page numbers, and other size specifications. Papers that are non-compliant may not be included in the proceeding.
+                            </p>
+                            <p style="font-style: italic; font-weight: 700; color: var(--ieee-navy);">*** maximum 6 pages per paper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="acc-left"><span class="acc-num">3</span>Corresponding Author</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">
+                            <ul>
+                                <li>Each paper submitted to this conference must have a designated corresponding author assigned.</li>
+                                <li>While it is traditional for the first listed author to be the corresponding author, any author of the paper may be designated the corresponding author.</li>
+                                <li>Whereas many of the responsibilities of the corresponding author will require compliance with legal terms and conditions, such as registration and transferring copyright, the corresponding author of the paper should be an adult of 18 years of age or older with the authority to agree to any and all legal requirements for the paper.</li>
+                                <li>The corresponding author acts as the assigned manager of the paper and should have the authority of all authors to speak collectively on behalf of all authors.</li>
+                                <li>The corresponding author is the author responsible for completing all tasks and expectations required for the paper during the paper submission process.</li>
+                                <li>The corresponding author is responsible for all activities related to the paper submission. This includes but is not limited to:
+                                    <ol style="margin-top: 0.5rem;">
+                                        <li>The initial submission of a compliant manuscript on or before the submission deadline.</li>
+                                        <li>Ensure adherence to the deadlines during the paper submission process.</li>
+                                        <li>Making timely updates or changes to the paper that may be requested or required during the submission process.</li>
+                                        <li>Acting as the representative to all authors associated with the paper as the lead communicator and representative for the paper.</li>
+                                        <li>Ensuring any and all fees related to the submission, such as conference registration fee and submission fees, are paid to support final paper upload in accordance with conference deadlines.</li>
+                                        <li>Completing the accurate final submission of the paper on or before the final submission deadline.</li>
+                                        <li>Ensuring the paper is presented at the conference during the assigned presentation time scheduled by the organizing committee.</li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="acc-left"><span class="acc-num">4</span>Final Submission</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">
+                            <ul>
+                                <li>Papers that are accepted to the conference program are required to complete all steps outlined for the final submission process. Papers that do not complete the final submission steps on or before the deadlines are subject to removal from the conference program.</li>
+                            </ul>
+
+                            <p style="font-weight:700; margin-top:1rem;">1. Submit the Final Draft:</p>
+                            <ul>
+                                <li>Submit the final draft on or before the published deadline. The Final draft should be Presentation and Publication Ready.</li>
+                                <li>We encourage a complete and thorough review of the paper as this will be the final opportunity to make any changes, adjustments, or acknowledgments; Requests to update, edit, change, or add information to the paper will not be accommodated after the final submission deadline.</li>
+                            </ul>
+
+                            <p style="font-weight:700; margin-top:1rem;">2. Transfer of Copyright to IEEE</p>
+                            <ul>
+                                <li>In accordance with IEEE Policy and the IEEE PSPB Operations Manual, all papers must transfer copyright of the paper to IEEE before publication. You may visit the IEEE Author center for more details on the copyright process and requirements.</li>
+                            </ul>
+
+                            <p style="font-weight:700; margin-top:1rem;">3. Registration to the Conference</p>
+                            <ul>
+                                <li>The corresponding author of the paper is expected to register to attend the conference and present the work.</li>
+                                <li>If the corresponding author is not able to attend the conference, he or she may delegate this responsibility to a co-author. The co-author attending is then required to pay the registration. This supports the rule that at least one author of the paper must pay the full registration fee in support of the paper.</li>
+                                <li>Delegation of this responsibility requires that the corresponding author submit a substitute/absentee case in advance.</li>
+                                <li>Full registration rates are defined as rates which give full access to the conference for the duration of the conference.</li>
+                                <li>Student Full rates cannot support a full paper but give full access to the conference for the duration of the conference.</li>
+                            </ul>
+
+                            <p style="font-weight:700; margin-top:1rem;">4. All fees must be paid in full, including any applicable taxes and additional fees.</p>
+                            <ul>
+                                <li>Each Author Full Registration will support 1 accepted paper of any submission type.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="acc-left"><span class="acc-num">5</span>Paper Presentation</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">
+                            <ul>
+                                <li>Each paper that is accepted to the conference and meets the final submission and registration requirements will be required to present their work at the conference as scheduled by the organizing committee.</li>
+                                <li>Decisions on the Presentation type assigned to a paper are determined by the conference organizing committee considering the factors which include, but are not limited to:
+                                    <ol style="margin-top:0.5rem;">
+                                        <li>Conference Editorial Board recommendation</li>
+                                        <li>Recommendations and suggestions by the paper reviewer</li>
+                                    </ol>
+                                </li>
+                                <li>Topic and content of the paper</li>
+                                <li>Topic interest</li>
+                                <li>Conference delivery resources</li>
+                                <li>Given the size of the conference and the number of papers presented during the conference, the committee is unable to accommodate special requests for presentation types and/or scheduling accommodations.</li>
+                                <li>Authors are encouraged to plan attendance for the full conference scheduled as all presentation dates are subject to change with or without notice.</li>
+                                <li><strong>Hybrid (online) mode is only for foreign authors.</strong> Foreign authors who present virtually should note that there will be no live streaming or recording.</li>
+                                <li><strong>Indian authors must present offline</strong> (in person). For Indian authors, at least one author of every paper must present offline.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="acc-left"><span class="acc-num">6</span>Paper Publication &amp; Indexing</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">
+                            <ul>
+                                <li>Papers submitted on the Full Contributed Paper type and path, which are accepted, complete all final submission steps as outlined by the conference, are presented at the conference as scheduled, and meet the IEEE Standards for Publication will be deemed eligible by Publication committee. Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and quality requirements.</li>
+                                <li>Acceptance to the conference does not guarantee or imply the guarantee of publication.</li>
+                                <li>Corresponding author must respond to the publication committee promptly if their paper format needs to be modified before publishing.</li>
+                                <li>If the corresponding author fails to respond to the publication committee, publication committee reserves all the right to exclude the manuscript from publication.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="acc-left"><span class="acc-num">7</span>Best Practices</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">
+                            <p>Authors are encouraged to:</p>
+                            <ul>
+                                <li>Ensure your email address in the author profile are up to date.</li>
+                                <li>Check spam and junk folders for messages related to your submitted work.</li>
+                                <li>Login as often as possible to your author workspace for any changes in status of notifications.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="acc-left"><span class="acc-num">8</span>Author's Responsibilities</span>
+                        <span class="acc-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">
+                            <ul>
+                                <li><span class="warn-text">Authors must ensure proper affiliation in their research article. Incomplete or wrong affiliation will lead to mismatch with other authors with same name in IEEE Xplore. AIMLA 2027 is not responsible for such issues.</span></li>
+                                <li><span class="warn-text">Authors who do not present their paper on conference date at particular venue, will be considered as absent and the paper will not be published in IEEE Xplore. Conference fee will not be refunded.</span></li>
+                                <li><span class="warn-text">Submit your research article through Microsoft CMT portal only. Sending paper to Mail or any other way will be automatically rejected. AIMLA 2027 is not responsible for exposure of your unpublished article which is not submitted through Microsoft CMT portal.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="download-cta">
+<aside class="mode-notice compact" role="note" aria-label="Mode of presentation">
+    <div class="mode-notice-icon" aria-hidden="true">!</div>
+    <div class="mode-notice-body">
+        <p><strong>Mode of presentation:</strong> Hybrid (online) mode is only for foreign authors. Indian authors must present offline, and at least one author of every paper must present in person.</p>
+    </div>
+</aside>
+                <p style="font-weight: 600;">The "Article Submission Guideline" for AIMLA 2027 will be published when the submission portal opens.</p>
+                <p style="font-weight: 600;">Paper submission opens on 01 Dec 2026. The CMT link will be posted here.</p>
+                <p style="font-weight: 700; font-size: 0.95rem; color: var(--ieee-navy);">Microsoft CMT service</p>
+                <p style="color: var(--ieee-red); font-weight: 700; font-size: 0.9rem; max-width: 720px; margin: 0.75rem auto 0;">
+                    By submitting your article to AIMLA 2027, you confirm that you have read and agree to all the guidelines, terms, and conditions outlined above.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== KEYNOTE SPEAKERS ===== -->
+    <section id="keynote-speakers">
+        <div class="container">
+            <div class="section-label">Speakers</div>
+            <h2 class="section-title">Keynote Speakers</h2>
+            <p class="section-desc">Distinguished experts sharing their insights at AIMLA 2027.</p>
+
+            <div class="speakers-grid">
+                <div class="speaker-card empty">
+                    <div class="empty-inner">
+                        <div class="empty-icon">🎤</div>
+                        <div class="empty-title">To Be Announced</div>
+                        <div class="empty-desc">Keynote speakers for AIMLA 2027 will be announced soon.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/script/callpaper.js"></script>
+    <!-- ===== CONTACT ===== -->
+    <main class="main-content" id="contact">
+        <div class="container">
+            <div class="section-label">Get in Touch</div>
+            <h1 class="section-title">Contact</h1>
+            <p class="section-desc">
+                Do not email your article. Papers are accepted only through the Microsoft CMT portal. Peer review is managed with Microsoft CMT, provided free by Microsoft.
+            </p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:aimla@ksrct.ac.in">aimla@ksrct.ac.in</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h4>Phone</h4>
+                    <p>+91-94428 06307</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕐</div>
+                    <h4>Office Hours</h4>
+                    <p>
+                        09:30 AM – 04:00 PM IST                        <span class="subline">Monday to Friday</span>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-note">
+                <span class="note-icon">⚠️</span>
+                <p><strong>Don't send your article by email.</strong> Submissions are accepted only through the Microsoft CMT portal.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand-block footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-mark">AI</span>
+                        <span class="brand-name">AIMLA 2027</span>
+                    </div>
+                    <p class="brand-desc">
+                        5th International Conference on Artificial Intelligence and Machine Learning Applications, 15–16 April 2027. Organized by the Departments of ECE, EEE, CSE and IT, K.S.Rangasamy College of Technology.                    </p>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="callforpapers.html#submission">Submission</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="venue-travel.html">Venue &amp; Travel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Explore</h5>
+                    <ul>
+                        <li><a href="callforpapers.html#keynote-speakers">Keynotes</a></li>
+                        <li><a href="about.html#committee">Committee</a></li>
+                        <li><a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener">IEEE Xplore</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copy">
+                    <strong>© 2027 AIMLA Conference.</strong> All rights reserved.<br>
+                    Organized by the Departments of ECE, EEE, CSE and IT, K.S.Rangasamy College of Technology.                </div>
+                <div class="footer-address">
+                    <strong>Department of ECE, K.S.Rangasamy College of Technology</strong><br>
+                    KSR Kalvi Nagar, Tiruchengode – 637215,<br>
+                    Namakkal (dt.), Tamil Nadu, India
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script/site.js"></script>
+</body>
+</html>

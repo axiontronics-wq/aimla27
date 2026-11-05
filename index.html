@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIMLA 2027 - International Conference on AI &amp; ML Applications</title>
+    <meta name="description" content="AIMLA 2027: 5th International Conference on Artificial Intelligence and Machine Learning Applications, 15–16 April 2027, K.S.Rangasamy College of Technology, Tiruchengode.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site-header.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/site-footer.css">
+</head>
+<body>
+
+    <!-- ===== TOP UTILITY BAR ===== -->
+    <div class="top-bar">
+        <div class="top-bar-left">Announcements</div>
+
+        <div class="marquee-wrap" aria-label="Announcements">
+            <div class="marquee-track">
+                <span>Paper submission opens 01 Dec 2026</span>
+                <span>Submission deadline: 15 Mar 2027</span>
+                <span>Conference on 15–16 April 2027</span>
+                <span>Hybrid mode is only for foreign authors · Indian authors must present offline</span>
+                <span>Submit only via Microsoft CMT portal</span>
+                <!-- duplicate for seamless loop -->
+                <span aria-hidden="true">Paper submission opens 01 Dec 2026</span>
+                <span aria-hidden="true">Submission deadline: 15 Mar 2027</span>
+                <span aria-hidden="true">Conference on 15–16 April 2027</span>
+                <span aria-hidden="true">Hybrid mode is only for foreign authors · Indian authors must present offline</span>
+                <span aria-hidden="true">Submit only via Microsoft CMT portal</span>
+            </div>
+        </div>
+
+        <div class="top-bar-links">
+            <a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener">IEEE Xplore</a>
+            <a href="registration.html#registration">Register</a>
+        </div>
+    </div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-mark">AI</span>
+                AIMLA 2027            </a>
+
+            <button class="mobile-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item active">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html">About <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="about.html#about">About Conference</a></li>
+                        <li><a href="about.html#committee">Committee</a></li>
+                        <li><a href="callforpapers.html#keynote-speakers">Keynote Speakers</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="callforpapers.html">Call for Papers <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="callforpapers.html#topics">Topics</a></li>
+                        <li><a href="callforpapers.html#submission">Submission</a></li>
+                        <li><a href="callforpapers.html#guidelines">Guidelines</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="program.html">Program <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="program.html#dates">Important Dates</a></li>
+                        <li><a href="program.html#schedule">Schedule / Technical Sessions</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="registration.html">Registration <span class="chevron">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="registration.html#fees">Fees</a></li>
+                        <li><a href="registration.html#registration">Register Now</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="venue-travel.html">Venue &amp; Travel</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="proceedings.html">Proceedings</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=1600&amp;q=80');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1600&amp;q=80');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-inner">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Conference on 15–16 April 2027                </div>
+                <h1>Artificial Intelligence and Machine Learning Applications</h1>
+                <p class="subtitle">5th International Conference</p>
+                <p class="theme">Theme: Innovation and Technology</p>
+                <div class="hero-buttons">
+                    <a href="registration.html#registration" class="btn btn-primary">Register Now →</a>
+                    <a href="#places" class="btn btn-outline">Explore Nearby</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MODE OF PRESENTATION ===== -->
+    <section class="mode-notice-wrap" id="presentation-mode">
+        <aside class="mode-notice" role="note" aria-label="Mode of presentation">
+    <div class="mode-notice-icon" aria-hidden="true">!</div>
+    <div class="mode-notice-body">
+        <h3>Mode of presentation: read this before you submit</h3>
+        <ul>
+            <li><strong>Hybrid (online) mode is only for foreign authors.</strong></li>
+            <li><strong>Indian authors must present offline</strong> (in person) at K.S.Rangasamy College of Technology, Tiruchengode.</li>
+            <li>For Indian authors, <strong>at least one author of every paper must present offline.</strong></li>
+        </ul>
+    </div>
+</aside>
+    </section>
+
+    <!-- ===== LOGOS ===== -->
+    <section class="organizers-section" id="organizers">
+        <div class="container">
+            <div class="section-label">Organizers &amp; Partners</div>
+            <h2 class="section-title">In Association With</h2>
+            <p class="section-desc">AIMLA 2027 is jointly organized by leading institutions and technical societies.</p>
+
+            <div class="logo-grid">
+                <div class="logo-card">
+                    <img src="https://static.wixstatic.com/media/8faa5b_3dc1d5462a7143ef912d4c96c3cba449~mv2.png/v1/fill/w_165,h_153,al_c,q_85/8faa5b_3dc1d5462a7143ef912d4c96c3cba449~mv2.png" alt="KSRCT Logo" loading="lazy">
+                    <h3>K.S.Rangasamy College of Technology</h3>
+                    <p>Tiruchengode, Tamil Nadu, India</p>
+                </div>
+                <div class="logo-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/IEEE_logo.svg/320px-IEEE_logo.svg.png" alt="IEEE Logo" loading="lazy">
+                    <h3>IEEE</h3>
+                    <p>Technical Co-Sponsor</p>
+                </div>
+                <div class="logo-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Springer_Logo.svg/320px-Springer_Logo.svg.png" alt="Springer Logo" loading="lazy">
+                    <h3>Springer</h3>
+                    <p>Publication Partner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DISCOVER BY PLACES — FULL WIDTH ===== -->
+    <section class="places-section" id="places">
+
+        <!-- Heading — container-ku ulla -->
+        <div class="places-heading">
+            <div class="section-label">Discover</div>
+            <h2 class="section-title">Discover by Places</h2>
+            <p class="section-desc">Explore the rich heritage, temples, hills, and attractions near the conference venue. Perfect for a short pre- or post-conference trip.</p>
+        </div>
+
+        <!-- ✅ FULL WIDTH CAROUSEL — container illa -->
+        <div class="places-carousel">
+
+            <!-- SLIDE 1: NAMAKKAL -->
+            <div class="place-slide active">
+                <div class="place-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1609920658906-8223bd289001?w=1920&q=80');"></div>
+                <div class="place-slide-overlay"></div>
+                <div class="place-slide-content">
+                    <div class="place-slide-inner">
+                        <div class="place-badge">Discover · Tamil Nadu</div>
+                        <h2>Namakkal</h2>
+                        <p class="place-tag">Rock Fort • Temples</p>
+                        <p class="place-desc">Famous for the Namakkal Rock Fort, ancient cave temples, and the Namagiri Thayar Temple. A historic town with rich Tamil heritage.</p>
+                        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/namakkal" target="_blank" rel="noopener" class="place-btn">Explore Namakkal →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 2: SALEM -->
+            <div class="place-slide">
+                <div class="place-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1920&q=80');"></div>
+                <div class="place-slide-overlay"></div>
+                <div class="place-slide-content">
+                    <div class="place-slide-inner">
+                        <div class="place-badge">Discover · Tamil Nadu</div>
+                        <h2>Salem</h2>
+                        <p class="place-tag">Hills • Steel City</p>
+                        <p class="place-desc">Known as the Steel City of India, Salem offers Yercaud hills, Mettur Dam, and the historic Kottai Mariamman Temple.</p>
+                        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/salem" target="_blank" rel="noopener" class="place-btn">Explore Salem →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 3: ERODE -->
+            <div class="place-slide">
+                <div class="place-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1920&q=80');"></div>
+                <div class="place-slide-overlay"></div>
+                <div class="place-slide-content">
+                    <div class="place-slide-inner">
+                        <div class="place-badge">Discover · Tamil Nadu</div>
+                        <h2>Erode</h2>
+                        <p class="place-tag">Bhavani • Textile Hub</p>
+                        <p class="place-desc">Home to the Bhavani Sangameswarar Temple, Vellode Bird Sanctuary, and the famous Kalingarayan Anicut on the Cauvery River.</p>
+                        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/erode" target="_blank" rel="noopener" class="place-btn">Explore Erode →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 4: COIMBATORE -->
+            <div class="place-slide">
+                <div class="place-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1598324789736-4861f89564a0?w=1920&q=80');"></div>
+                <div class="place-slide-overlay"></div>
+                <div class="place-slide-content">
+                    <div class="place-slide-inner">
+                        <div class="place-badge">Discover · Tamil Nadu</div>
+                        <h2>Coimbatore</h2>
+                        <p class="place-tag">Kovai • Manchester of South India</p>
+                        <p class="place-desc">Gateway to the Nilgiris, with Marudhamalai Temple, Siruvani Waterfalls, and the vibrant Isha Yoga Center.</p>
+                        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/coimbatore" target="_blank" rel="noopener" class="place-btn">Explore Coimbatore →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ARROWS -->
+            <button class="place-nav prev" onclick="prevPlace()" aria-label="Previous">‹</button>
+            <button class="place-nav next" onclick="nextPlace()" aria-label="Next">›</button>
+
+            <!-- DOTS -->
+            <div class="place-dots">
+                <button class="place-dot active" onclick="goToPlace(0)" aria-label="Namakkal"></button>
+                <button class="place-dot" onclick="goToPlace(1)" aria-label="Salem"></button>
+                <button class="place-dot" onclick="goToPlace(2)" aria-label="Erode"></button>
+                <button class="place-dot" onclick="goToPlace(3)" aria-label="Coimbatore"></button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" id="registration">
+        <div class="container">
+            <h2>Join Us at AIMLA 2027</h2>
+            <p>Be part of the 5th International Conference on AI &amp; ML Applications.</p>
+            <a href="registration.html#registration" class="btn btn-primary">Register Now →</a>
+        </div>
+    </section>
+
+    <script src="assets/script/home.js"></script>
+    <!-- ===== CONTACT ===== -->
+    <main class="main-content" id="contact">
+        <div class="container">
+            <div class="section-label">Get in Touch</div>
+            <h1 class="section-title">Contact</h1>
+            <p class="section-desc">
+                Do not email your article. Papers are accepted only through the Microsoft CMT portal. Peer review is managed with Microsoft CMT, provided free by Microsoft.
+            </p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:aimla@ksrct.ac.in">aimla@ksrct.ac.in</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h4>Phone</h4>
+                    <p>+91-94428 06307</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕐</div>
+                    <h4>Office Hours</h4>
+                    <p>
+                        09:30 AM – 04:00 PM IST                        <span class="subline">Monday to Friday</span>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-note">
+                <span class="note-icon">⚠️</span>
+                <p><strong>Don't send your article by email.</strong> Submissions are accepted only through the Microsoft CMT portal.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand-block footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-mark">AI</span>
+                        <span class="brand-name">AIMLA 2027</span>
+                    </div>
+                    <p class="brand-desc">
+                        5th International Conference on Artificial Intelligence and Machine Learning Applications, 15–16 April 2027. Organized by the Departments of ECE, EEE, CSE and IT, K.S.Rangasamy College of Technology.                    </p>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="callforpapers.html#submission">Submission</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="venue-travel.html">Venue &amp; Travel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Explore</h5>
+                    <ul>
+                        <li><a href="callforpapers.html#keynote-speakers">Keynotes</a></li>
+                        <li><a href="about.html#committee">Committee</a></li>
+                        <li><a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener">IEEE Xplore</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copy">
+                    <strong>© 2027 AIMLA Conference.</strong> All rights reserved.<br>
+                    Organized by the Departments of ECE, EEE, CSE and IT, K.S.Rangasamy College of Technology.                </div>
+                <div class="footer-address">
+                    <strong>Department of ECE, K.S.Rangasamy College of Technology</strong><br>
+                    KSR Kalvi Nagar, Tiruchengode – 637215,<br>
+                    Namakkal (dt.), Tamil Nadu, India
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script/site.js"></script>
+</body>
+</html>

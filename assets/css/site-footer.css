@@ -345,3 +345,6 @@ footer {
     .footer-bottom { flex-direction: column; align-items: flex-start; }
     .footer-address { text-align: left; }
 }
+
+.footer-ack { max-width: 1100px; margin: 1.5rem auto 0; font-size: 0.85rem; line-height: 1.6; color: rgba(255,255,255,0.8); }
+.footer-ack strong { color: #fff; }

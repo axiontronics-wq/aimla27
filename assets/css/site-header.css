@@ -427,3 +427,25 @@ nav {
     .mode-notice li { font-size: 0.95rem; }
     .mode-notice-wrap { padding: 1.25rem 1rem; }
 }
+
+/* IEEE tag in the header */
+.nav-logo .ieee-tag { display: flex; align-items: center; gap: 0.45rem; margin-left: 0.35rem; padding-left: 0.75rem; border-left: 1px solid #d0d7de; }
+.nav-logo .ieee-mark { height: 26px; width: auto; display: block; }
+.nav-logo .ieee-approval { font-size: 0.7rem; font-weight: 700; color: #b45309; letter-spacing: 0; white-space: nowrap; }
+@media (max-width: 600px) {
+    .nav-logo { font-size: 1rem; gap: 0.4rem; }
+    .nav-logo .ieee-tag { margin-left: 0.1rem; padding-left: 0.45rem; gap: 0.3rem; }
+    .nav-logo .ieee-mark { height: 18px; }
+    .nav-logo .ieee-approval { font-size: 0.55rem; line-height: 1.15; white-space: normal; max-width: 4.2rem; }
+}
+
+/* Important note (fraud warning) */
+.important-note-wrap { background: #fff; padding: 1.5rem 1.5rem 0; }
+.important-note-wrap .important-note { max-width: 1100px; margin: 0 auto; }
+.important-note { display: flex; gap: 1rem; align-items: flex-start; background: #fdecea; border: 2px solid #c62828; border-radius: 10px; padding: 1.1rem 1.25rem; text-align: left; }
+.important-note-icon { flex: 0 0 auto; width: 34px; height: 34px; border-radius: 50%; background: #c62828; color: #fff; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+.important-note h3 { margin: 0 0 0.4rem; font-size: 1.1rem; color: #8e1b1b; }
+.important-note ul { margin: 0; padding-left: 1.1rem; color: #3a1a1a; line-height: 1.55; font-size: 0.97rem; }
+.important-note li + li { margin-top: 0.3rem; }
+.important-note a { color: #8e1b1b; font-weight: 700; word-break: break-word; }
+@media (max-width: 600px) { .important-note { padding: 0.9rem; gap: 0.7rem; } .important-note ul { font-size: 0.92rem; } }

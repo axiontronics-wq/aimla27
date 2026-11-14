@@ -881,3 +881,10 @@
     .places-carousel { height: 560px; }
     .place-desc { font-size: 0.88rem; }
 }    
+/* ===== ABOUT THE INSTITUTION ===== */
+#institution .about-grid { grid-template-columns: 1.2fr 1fr; }
+.inst-list { margin: 1rem 0 0; padding-left: 1.2rem; color: var(--text-body); font-size: 0.95rem; line-height: 1.7; }
+.inst-list li + li { margin-top: 0.35rem; }
+.inst-head { font-size: 1.05rem; color: var(--ieee-blue); margin: 0 0 0.4rem; }
+.about-card p + .inst-head { margin-top: 1.25rem; }
+@media (max-width: 860px) { #institution .about-grid { grid-template-columns: 1fr; } }

@@ -888,3 +888,8 @@
 .inst-head { font-size: 1.05rem; color: var(--ieee-blue); margin: 0 0 0.4rem; }
 .about-card p + .inst-head { margin-top: 1.25rem; }
 @media (max-width: 860px) { #institution .about-grid { grid-template-columns: 1fr; } }
+
+/* ===== COMMITTEE: always expanded (no accordion) ===== */
+.committee-section .section-header { cursor: default; }
+.committee-section .section-header, .committee-section .section-header:hover { background: var(--ieee-blue-light); border-bottom-color: var(--border); }
+.committee-section .section-body { max-height: none; overflow: visible; }

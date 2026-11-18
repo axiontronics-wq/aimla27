@@ -746,3 +746,9 @@
 .cmt-btn { display: inline-block; text-decoration: none !important; background: var(--ieee-orange, #e65100); color: #fff !important; font-weight: 700; font-size: 1rem; padding: 0.85rem 1.6rem; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 14px rgba(230,81,0,0.25); transition: transform 0.2s, box-shadow 0.2s; }
 .cmt-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(230,81,0,0.35); }
 @media (max-width: 600px) { .fee-card { padding: 1.5rem; } .fee-grid { grid-template-columns: 1fr; } .cmt-btn { display: block; text-align: center; } }
+
+/* Article Submission Guideline button */
+.guide-cta { margin: 1rem 0 0.75rem; }
+.guide-btn { display: inline-block; text-decoration: none !important; background: #fff; color: var(--ieee-blue) !important; border: 2px solid var(--ieee-blue); font-weight: 700; font-size: 1rem; padding: 0.75rem 1.5rem; border-radius: 8px; transition: background 0.2s, transform 0.2s; }
+.guide-btn:hover { background: var(--ieee-blue-light, #e8f2f9); transform: translateY(-2px); }
+@media (max-width: 600px) { .guide-btn { display: block; text-align: center; } }

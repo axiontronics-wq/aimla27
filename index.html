@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/site-header.css?v=1794645495">
+    <link rel="stylesheet" href="assets/css/site-header.css?v=1795493074">
     <link rel="stylesheet" href="assets/css/home.css?v=1794646991">
     <link rel="stylesheet" href="assets/css/site-footer.css?v=1794645495">
 </head>
@@ -20,14 +20,12 @@
 
         <div class="marquee-wrap" aria-label="Announcements">
             <div class="marquee-track">
-                <span>Paper submission is open on Microsoft CMT</span>
-                <span>First round submission deadline: 15 Dec 2026</span>
+                <span>Paper submission is temporarily closed</span>
                 <span>Conference on 15–16 April 2027</span>
                 <span>Hybrid mode is only for foreign authors · Indian authors must present offline</span>
                 <span>Submit only via Microsoft CMT portal</span>
                 <!-- duplicate for seamless loop -->
-                <span aria-hidden="true">Paper submission is open on Microsoft CMT</span>
-                <span aria-hidden="true">First round submission deadline: 15 Dec 2026</span>
+                <span aria-hidden="true">Paper submission is temporarily closed</span>
                 <span aria-hidden="true">Conference on 15–16 April 2027</span>
                 <span aria-hidden="true">Hybrid mode is only for foreign authors · Indian authors must present offline</span>
                 <span aria-hidden="true">Submit only via Microsoft CMT portal</span>
@@ -112,12 +110,23 @@
                 <p class="subtitle">5th International Conference</p>
                 <p class="theme">Theme: Innovation and Technology</p>
                 <div class="hero-buttons">
-                    <a href="callforpapers.html#submission" class="btn btn-primary">Submit Your Article →</a>
+                    <a href="callforpapers.html#submission" class="btn btn-primary">Call for Papers →</a>
                     <a href="callforpapers.html#fees" class="btn btn-outline">Registration Fee</a>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="paused-notice-wrap" id="submission-status">
+        <div class="paused-notice" role="status">
+            <span class="paused-icon" aria-hidden="true">!</span>
+            <div>
+                <h3>Paper submission is temporarily closed</h3>
+                <p>The Microsoft CMT submission link is disabled for now. It will be available again when submission reopens, and revised dates will be announced on this website. For queries, write to <a href="mailto:aimla@ksrct.ac.in">aimla@ksrct.ac.in</a>.</p>
+            </div>
+        </div>
+    </section>
+
 
     <!-- ===== MODE OF PRESENTATION ===== -->
     <section class="mode-notice-wrap" id="presentation-mode">
@@ -154,14 +163,15 @@
         <div class="container">
             <div class="section-label">Schedule</div>
             <h2 class="section-title">Important Dates</h2>
-            <div class="timeline">
+            <p class="dates-hold-note">These dates are on hold while paper submission is temporarily closed. Revised dates will be announced here.</p>
+            <div class="timeline washed" aria-disabled="true">
                 <div class="timeline-item">
                     <div class="timeline-dot teal"></div>
                     <div class="timeline-content">
                         <h4>Paper submission opened</h4>
                         <span class="date">14 Nov 2026</span>
                     </div>
-                    <span class="status-badge open">Open</span>
+                    <span class="status-badge tba">On hold</span>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot teal"></div>
@@ -169,7 +179,7 @@
                         <h4>First round paper submission deadline</h4>
                         <span class="date">15 Dec 2026</span>
                     </div>
-                    <span class="status-badge upcoming">Upcoming</span>
+                    <span class="status-badge tba">On hold</span>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot teal"></div>
@@ -177,7 +187,7 @@
                         <h4>Notification of paper acceptance</h4>
                         <span class="date">30 Jan 2027</span>
                     </div>
-                    <span class="status-badge upcoming">Upcoming</span>
+                    <span class="status-badge tba">On hold</span>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot teal"></div>
@@ -185,7 +195,7 @@
                         <h4>Camera-ready submission deadline</h4>
                         <span class="date">15 Feb 2027</span>
                     </div>
-                    <span class="status-badge upcoming">Upcoming</span>
+                    <span class="status-badge tba">On hold</span>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot orange"></div>
@@ -193,11 +203,10 @@
                         <h4>Main conference</h4>
                         <span class="date">15 Apr 2027 – 16 Apr 2027</span>
                     </div>
-                    <span class="status-badge upcoming">Upcoming</span>
+                    <span class="status-badge tba">On hold</span>
                 </div>
             </div>
             <div class="dates-actions">
-                <a href="callforpapers.html#submission" class="action-btn primary">Submit Your Article →</a>
                 <a href="callforpapers.html#fees" class="action-btn outline">Registration Fee</a>
             </div>
         </div>
@@ -317,7 +326,7 @@
         <div class="container">
             <h2>Join Us at AIMLA 2027</h2>
             <p>Be part of the 5th International Conference on AI &amp; ML Applications.</p>
-            <a href="callforpapers.html#submission" class="btn btn-primary">Submit Your Article →</a>
+            <a href="callforpapers.html#submission" class="btn btn-primary">Call for Papers →</a>
         </div>
     </section>
 
